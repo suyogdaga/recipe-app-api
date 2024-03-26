@@ -1,4 +1,4 @@
-FROM --platform=arm64 python:3.9-alpine3.13
+FROM python:3.9-alpine3.13
 LABEL maintainer="suyogdaga"
 
 ENV PYTHONUNBUFFERED 1
